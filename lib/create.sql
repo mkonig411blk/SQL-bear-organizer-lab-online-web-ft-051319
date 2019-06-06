@@ -12,4 +12,5 @@ INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES (NULL,27
 select name, age from bears where gender = "female";
 select name from bears order by name asc;
 select name, age from bears where alive = 1 order by age desc;
-select name, age from bears order by age 
+select name, age from bears order by age LIMIT 1;
+
