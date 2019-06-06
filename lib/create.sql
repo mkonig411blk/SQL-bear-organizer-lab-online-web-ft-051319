@@ -8,3 +8,7 @@ INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES ('Meliss
 INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES ('Grinch',27,male,brown,angry,1);
 INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES ('Wendy',27,male,brown,angry,1);
 INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES (NULL,27,male,brown,angry,1);
+
+select name, age from bears where gender = "female";
+select name from bears order by asc;
+select name, age from bears where alive = 1 order by desc;
