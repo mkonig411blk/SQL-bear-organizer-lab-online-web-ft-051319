@@ -1,3 +1,9 @@
+
+
+select name from bears order by name asc;
+select name, age from bears where alive = 1 order by age;
+select name, age from bears order by age DESC LIMIT 1;
+
 def selects_all_female_bears_return_name_and_age
   "Write your SQL query here"
 end
